@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	int counter1 = 1;
 	while(counter1 < argc)
 	{
-		while(argc[counter1][counter])
+		while(argv[counter1][counter])
 		{
 			ft_putchar(argv[counter1][counter]);
 			counter++;
