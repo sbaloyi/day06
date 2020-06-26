@@ -1,4 +1,4 @@
-int ft_strcmp(const char *a, const char *b)
+int ft_strcmp(char *a, char *b)
 {
     while (*a && *a == *b)
     {
